@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', serif;
+}
+
+:root {
+  --spo-color-1: rgb(31, 26, 107);
+  --spo-color-2: rgb(131, 96, 195);
+  --spo-color-3: rgb(193, 142, 215);
+  --spo-color-4: rgb(255, 203, 199);
+  --spo-color-5: #f0f0f0;
+
+  /* BACKGROUNG COLORS */
+  --spo-dark-mode-bg: var(--spo-color-1);
+  --spo-light-mode-bg: var(--spo-color-5);
+
+  /* TEXT COLORS */
+  --spo-dark-mode-text: var(--spo-color-5);
+  --spo-light-mode-text: var(--spo-color-1);
+
+  /* BORDER RADIUS */
+  --spo-primary-br: 7px;
+  --spo-secondary-br: 2px;
+
+  /* SPACINGS */
+  --spo-margin-xs: 5px;
+  --spo-margin-s: 10px;
+  --spo-margin-m: 20px;
+  --spo-margin-l: 30px;
+  --spo-margin-xl: 40px;
+
+  --spo-padding-xs: 5px;
+  --spo-padding-s: 10px;
+  --spo-padding-m: 20px;
+  --spo-padding-l: 30px;
+  --spo-padding-xl: 50px;
+
+  --spo-gap-xs: 5px;
+  --spo-gap-s: 10px;
+  --spo-gap-m: 20px;
+  --spo-gap-l: 30px;
+  --spo-gap-xl: 40px;
+}
