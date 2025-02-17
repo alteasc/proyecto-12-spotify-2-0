@@ -12,7 +12,6 @@ const TokenProvider = ({ children }) => {
   return (
     <TokenContext.Provider value={{ token, saveToken }}>
       {children}
-      {console.log(token)}
     </TokenContext.Provider>
   )
 }

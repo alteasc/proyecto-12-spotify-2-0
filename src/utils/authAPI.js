@@ -3,6 +3,8 @@ const REDIRECT_URI = 'http://localhost:5173/callback'
 const SCOPES = [
   'user-read-private',
   'user-read-email',
+  'user-top-read',
+  'user-library-read',
   'playlist-read-private'
   // Agrega más scopes según lo que necesites
 ]
