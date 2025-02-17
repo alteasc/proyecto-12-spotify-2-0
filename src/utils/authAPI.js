@@ -1,5 +1,5 @@
 const CLIENT_ID = '72da854640234c3f8f13b79561eee180'
-const REDIRECT_URI = 'https://proyecto-12-spotify-2-0.vercel.app/callback'
+const REDIRECT_URI = 'http://127.0.0.1:8000/callback'
 const SCOPES = [
   'user-read-private',
   'user-read-email',
